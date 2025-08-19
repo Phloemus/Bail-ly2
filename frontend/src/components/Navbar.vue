@@ -44,7 +44,7 @@
 </script>
 
 <template>
-    <nav class="px-6 py-3 sticky top-0 right-0 w-full flex justify-between items-center bg-white border-b border-slate-200">
+    <nav class="px-3 lg:px-6 py-3 sticky top-0 right-0 w-full flex justify-between items-center bg-white border-b border-slate-200">
         <div class="flex gap-2">
             <div class="w-10 h-10 bg-slate-900 rounded-md">
 

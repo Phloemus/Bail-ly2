@@ -12,8 +12,8 @@
         <Sidebar />
         <div class="w-full">
             <Navbar />
-            <div class="px-10 my-10">
-                <main class="mx-auto p-8 bg-white max-w-screen-xl border border-slate-200 rounded-md">
+            <div class="px-4 lg:px-10 my-10">
+                <main class="mx-auto p-4 lg:p-8 bg-white max-w-screen-xl border border-slate-200 rounded-md">
                     <slot />
                 </main>
             </div>
