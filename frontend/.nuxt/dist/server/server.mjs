@@ -1,0 +1,1 @@
+export { default } from "file:///home/brieuc/Documents/other/perso/dev/Bail-ly2/frontend/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
