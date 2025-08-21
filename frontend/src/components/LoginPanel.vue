@@ -88,13 +88,13 @@
             console.error("Error fetching data: ", err)
         })
     }
+    */
 
     function hideLoginPanel(event) {
         if(event.currentTarget === event.target) {
             isLoginPanelOpened.value = false
         }
     }
-    */
 
 </script>
 
