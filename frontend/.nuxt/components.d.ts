@@ -16,6 +16,7 @@ interface _GlobalComponents {
     'LoginPanel': typeof import("../src/components/LoginPanel.vue")['default']
     'Navbar': typeof import("../src/components/Navbar.vue")['default']
     'OntologyCard': typeof import("../src/components/OntologyCard.vue")['default']
+    'QuickNavigation': typeof import("../src/components/QuickNavigation.vue")['default']
     'SearchInput': typeof import("../src/components/SearchInput.vue")['default']
     'SecondaryButton': typeof import("../src/components/SecondaryButton.vue")['default']
     'Sidebar': typeof import("../src/components/Sidebar.vue")['default']
@@ -49,6 +50,7 @@ interface _GlobalComponents {
     'LazyLoginPanel': LazyComponent<typeof import("../src/components/LoginPanel.vue")['default']>
     'LazyNavbar': LazyComponent<typeof import("../src/components/Navbar.vue")['default']>
     'LazyOntologyCard': LazyComponent<typeof import("../src/components/OntologyCard.vue")['default']>
+    'LazyQuickNavigation': LazyComponent<typeof import("../src/components/QuickNavigation.vue")['default']>
     'LazySearchInput': LazyComponent<typeof import("../src/components/SearchInput.vue")['default']>
     'LazySecondaryButton': LazyComponent<typeof import("../src/components/SecondaryButton.vue")['default']>
     'LazySidebar': LazyComponent<typeof import("../src/components/Sidebar.vue")['default']>
@@ -88,6 +90,7 @@ export const ActionButton: typeof import("../src/components/ActionButton.vue")['
 export const LoginPanel: typeof import("../src/components/LoginPanel.vue")['default']
 export const Navbar: typeof import("../src/components/Navbar.vue")['default']
 export const OntologyCard: typeof import("../src/components/OntologyCard.vue")['default']
+export const QuickNavigation: typeof import("../src/components/QuickNavigation.vue")['default']
 export const SearchInput: typeof import("../src/components/SearchInput.vue")['default']
 export const SecondaryButton: typeof import("../src/components/SecondaryButton.vue")['default']
 export const Sidebar: typeof import("../src/components/Sidebar.vue")['default']
@@ -121,6 +124,7 @@ export const LazyActionButton: LazyComponent<typeof import("../src/components/Ac
 export const LazyLoginPanel: LazyComponent<typeof import("../src/components/LoginPanel.vue")['default']>
 export const LazyNavbar: LazyComponent<typeof import("../src/components/Navbar.vue")['default']>
 export const LazyOntologyCard: LazyComponent<typeof import("../src/components/OntologyCard.vue")['default']>
+export const LazyQuickNavigation: LazyComponent<typeof import("../src/components/QuickNavigation.vue")['default']>
 export const LazySearchInput: LazyComponent<typeof import("../src/components/SearchInput.vue")['default']>
 export const LazySecondaryButton: LazyComponent<typeof import("../src/components/SecondaryButton.vue")['default']>
 export const LazySidebar: LazyComponent<typeof import("../src/components/Sidebar.vue")['default']>
