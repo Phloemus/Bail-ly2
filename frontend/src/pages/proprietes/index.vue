@@ -6,7 +6,8 @@
 <template>
     <div>
         <h1 class="text-xl font-bold">Mes propriétés</h1>
-        <div class="mt-4 flex flex-col md:flex-row">
+        <p class="mt-4 mb-2 text-slate-600">Tous les appartements et les maisons que vous louez.</p>
+        <div class="flex flex-col md:flex-row">
             <div class="my-2 p-1 rounded-sm cursor-pointer">
                 <div class="w-full h-44 bg-slate-300 rounded-sm"></div>
                 <div class="p-1">
