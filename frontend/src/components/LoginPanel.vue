@@ -102,11 +102,8 @@
     <div class="w-full h-full">
         <div class="w-full h-full fixed top-0 left-0 bg-opacity-70 bg-slate-800 z-20" @click="hideLoginPanel($event)">
             <div class="mx-3 lg:mx-auto my-14 p-4 lg:p-4 bg-white rounded-md max-w-screen-sm">
-                <h2 class="text-slate-900 text-2xl font-bold flex justify-center">Login</h2>
-                <p class="mt-8 mb-4 mx-4 text-slate-800">
-                    Login as an authentenficated user allows to get access to your personal queries and admin priviledge API routes for the knowledge graph maintenance.
-                </p>
-                <div class="mb-6 px-4 w-full">
+                <h2 class="text-slate-900 text-2xl font-bold flex justify-center">Se connecter</h2>
+                <div class="my-6 px-4 w-full">
                     <div class="w-full">
                         <h3 class="text-lg text-slate-900">Email</h3>
                         <div class="my-2">
