@@ -5,7 +5,15 @@
 
 <template>
     <div>
-        <h1 class="text-xl font-bold">Contrats de location</h1>
+        <div class="flex justify-between items-center">
+            <h1 class="text-xl font-bold">Contrats de location</h1>
+            <NuxtLink to="contrats-bail/creer">
+                <img 
+                    class="h-7 w-7 cursor-pointer" 
+                    src="../../assets/plus-icon.svg"
+                />
+            </NuxtLink>
+        </div>
         <p class="my-4 text-slate-600">
             Liste de tous vos contrats de locations en cours.
         </p>
