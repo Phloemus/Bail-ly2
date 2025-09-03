@@ -5,7 +5,15 @@
 
 <template>
     <div>
-        <h1 class="text-xl font-bold">Mes locataires</h1>
+        <div class="flex justify-between items-center">
+            <h1 class="text-xl font-bold">Mes locataires</h1>
+            <NuxtLink to="locataires/creer">
+                <img 
+                    class="h-7 w-7 cursor-pointer" 
+                    src="../../assets/plus-icon.svg"
+                />
+            </NuxtLink>
+        </div>
         <p class="my-4 text-slate-600">Liste de tous les locataires avec qui vous avez un contrat de bail actif.</p>
         <div class="flex flex-col md:flex-row gap-2">
             <div class="p-2 flex gap-4 items-center rounded-md hover:bg-slate-100 cursor-pointer">

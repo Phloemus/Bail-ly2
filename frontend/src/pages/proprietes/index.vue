@@ -5,7 +5,15 @@
 
 <template>
     <div>
-        <h1 class="text-xl font-bold">Mes propriétés</h1>
+        <div class="flex justify-between items-center">
+            <h1 class="text-xl font-bold">Mes propriétés</h1>
+            <NuxtLink to="proprietes/creer">
+                <img 
+                    class="h-7 w-7 cursor-pointer" 
+                    src="../../assets/plus-icon.svg"
+                />
+            </NuxtLink>
+        </div>
         <p class="my-4 text-slate-600">Tous les appartements et les maisons que vous louez.</p>
         <div class="flex flex-col md:flex-row gap-2">
             <div class="p-2 flex gap-4 items-center rounded-md hover:bg-slate-100 cursor-pointer">

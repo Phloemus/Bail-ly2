@@ -1,5 +1,9 @@
 <script setup>
 
+    const listOccupants = ref([
+        {firstName: "Brieuc", lastName: "Quemeneur", email: "brieucquemeneur@gmail.com" },
+    ])
+    const listProperties = ref([])
 
 </script>
 
