@@ -45,7 +45,7 @@
                 <div class="my-10 w-full relative">
                     <h3 class="mx-1 my-4 text-slate-600 text-lg">Actions rapides</h3>
                     <div class="my-2 p-2 bg-slate-50 hover:bg-slate-100 text-slate-800 rounded-md hover:cursor-pointer">
-                        <NuxtLink to="/emails-planifies" @click="toggleSidebar">
+                        <NuxtLink to="/email-planifies" @click="toggleSidebar">
                             <p>
                                 Emails planifiés
                             </p>
