@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div>
+    <main class="mx-auto p-4 lg:p-8 bg-white max-w-screen-xl border border-slate-200 rounded-md">
         <div class="flex justify-between items-center">
             <h1 class="text-xl font-bold">Créer une Locataire</h1>
         </div>
@@ -45,5 +45,5 @@
             <ActionButton class="w-full" @click="displayLoginPanel" v-show="!isUserLoggedIn" content="Enregistrer et modifier"/>
         </div>
 
-    </div>
+    </main>
 </template>

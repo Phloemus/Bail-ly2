@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div>
+    <main class="mx-auto p-4 lg:p-8 bg-white max-w-screen-xl border border-slate-200 rounded-md">
         <h1 class="text-xl font-bold">Profil propriété</h1>
         <div class="p-2 my-2 flex gap-4 items-center rounded-md hover:bg-slate-100 cursor-pointer">
             <div class="h-10 w-10 p-2 bg-slate-300 rounded-full text-white"></div>
@@ -58,5 +58,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </template>

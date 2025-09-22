@@ -14,7 +14,7 @@
 
 <template>
     <div 
-        class="w-full lg:w-96 block absolute lg:sticky top-0 bg-white border-r border-slate-200 z-10"
+	class="w-full lg:w-96 block absolute lg:sticky top-0 bg-white border-r border-slate-200 z-10"
         v-show="isSidebarToggled"
     >
             <div class="w-full h-1 lg:hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>

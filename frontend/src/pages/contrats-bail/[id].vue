@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div>
+    <main class="mx-auto p-4 lg:p-8 bg-white max-w-screen-xl border border-slate-200 rounded-md">
         <h1 class="text-xl font-bold">Contrat de location</h1>
         <p class="my-4 text-slate-600">
             Vous pouvez modifier le contrat de location du locataire. Il sera notifié par <span class="font-medium">email</span> de la 
@@ -40,6 +40,14 @@
                 placeholder="date de fin de contrat"
                 value="31/10/2025"
             />
+	    <div class="mb-6 flex gap-2 items-center">
+            	<input
+		    class="w-4 h-4"
+               	    type="checkbox"
+                    defaultChecked={true}
+                />
+                <label class="text-md">Activer l'envoi des mails de rappel</label>
+            </div>
             <div class="mt-2 mb-6">
                 <ActionButton class="w-full" @click="displayLoginPanel" v-show="!isUserLoggedIn" content="Enregistrer et modifier"/>
             </div>
@@ -64,5 +72,5 @@
         <div class="mt-6 mb-4 w-full h-80 bg-slate-300 flex justify-center rounded-sm">
             <p>Contract format PDF</p>
         </div>
-    </div>
+    </main>
 </template>
