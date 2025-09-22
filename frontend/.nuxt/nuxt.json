@@ -1,9 +1,9 @@
 {
-  "_hash": "NOAZPc6I91UQis4Rvdf_SFXWw_Xf0Xi4F0el8aGj9ZM",
+  "_hash": "ozqpZhkgBhGDXcQf3G3TjFvDdECfK_k0Jsdh793YFpc",
   "project": {
-    "rootDir": "/home/phloemus/docs/dev/Bail-ly2/frontend"
+    "rootDir": "/home/brieuc/Documents/other/perso/dev/Bail-ly2/frontend"
   },
   "versions": {
-    "nuxt": "3.16.1"
+    "nuxt": "3.17.7"
   }
 }

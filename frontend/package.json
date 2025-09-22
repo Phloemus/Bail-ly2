@@ -15,6 +15,7 @@
     "@nuxtjs/tailwindcss": "^6.13.2",
     "flexsearch": "^0.8.149",
     "nuxt": "^3.16.0",
+    "nuxt-charts": "^0.2.4",
     "nuxt-shiki": "^0.3.0",
     "pocketbase": "^0.26.2",
     "vue": "^3.5.13",
