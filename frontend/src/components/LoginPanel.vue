@@ -1,14 +1,9 @@
 <script setup>
 
-    import PocketBase from 'pocketbase'
-
-    const pbEndpoint = "http://127.0.0.1:8090"
-    const pb = new PocketBase(pbEndpoint)
+    const pb = usePocketbase()
 
     // Global state
     const isUserLoggedIn = useState('isUserLoggedIn', () => false)
-    const userAuthToken = useState('userAuthToken', () => "")
-    const isLoginPanelOpened = useState('isLoginPanelOpened')
 
     // Local state
     const email = ref("")
@@ -24,7 +19,7 @@
             "identity": email.value,
             "password": password.value,
         }
-        fetch(`${pbEndpoint}/api/collections/users/auth-with-password`, {
+        fetch(`http://localhost:8090/api/collections/users/auth-with-password`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -42,6 +37,7 @@
             isError.value = false
             isLoading.value = false
             error.value = {}
+
             window.location.replace("/")
         }).catch((errorResp) => {
             console.log(errorResp)

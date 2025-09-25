@@ -4,6 +4,8 @@
     import SearchInput from './SearchInput.vue'
     import data from '../static/result-10k-first-classes.json'
 
+    const pb = usePocketbase()
+
     // Global state
     const isUserLoggedIn = useState('isUserLoggedIn')
     const userAuthToken = useState('userAuthToken')
@@ -14,10 +16,9 @@
         isLoginPanelOpened.value = true
     }
 
-    async function logout() {
-        isUserLoggedIn.value = false
-        userAuthToken.value = ""
-        await navigateTo("/")
+    function logout() { // seems to logout but doesn't update the state for some reason
+        pb.authStore.clear()
+        navigateTo("/")
     }
 
     function toggleSidebar() {
@@ -67,8 +68,8 @@
             />
         </div>
         <div class="flex flex-row-reverse gap-4">
-            <ActionButton @click="displayLoginPanel" v-show="!isUserLoggedIn" content="Login"/>
-            <SecondaryButton @click="logout" v-show="isUserLoggedIn" content="Log out"/>
+            <ActionButton @click="displayLoginPanel" v-show="!pb.authStore.isValid" content="Login"/>
+            <SecondaryButton @click="logout" v-show="pb.authStore.isValid" content="Log out"/>
         </div>
     </nav>
 </template>
